@@ -34,14 +34,27 @@
         android:paddingLeft="30dp"
         android:paddingRight="30dp">
 
+        <!--        <ImageView
+                    android:layout_width="31dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/user"
+                    android:visibility="visible" />-->
+
         <EditText
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
             android:background="#ffffffff"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="10dp"
             android:hint="请输入用户名"
+            android:paddingStart="8dp"
             android:paddingLeft="20dp"
+            android:paddingEnd="8dp"
+            android:singleLine="true"
             android:textColor="#ff000000"
             android:textSize="18sp" />
 
@@ -55,8 +68,13 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="#ffffffff"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="10dp"
             android:hint="请输入密码"
+            android:paddingStart="8dp"
             android:paddingLeft="20dp"
+            android:paddingEnd="8dp"
+            android:singleLine="true"
             android:textColor="#ff000000"
             android:textSize="20sp" />
 
@@ -66,12 +84,17 @@
             android:background="#11000000" />
 
         <EditText
-            android:id="@+id/password2"
+            android:id="@+id/passwordAgain"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="#ffffffff"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="10dp"
             android:hint="请再次输入密码"
+            android:paddingStart="8dp"
             android:paddingLeft="20dp"
+            android:paddingEnd="8dp"
+            android:singleLine="true"
             android:textColor="#ff000000"
             android:textSize="20sp" />
 
