@@ -41,6 +41,7 @@ public class SplashActivity extends AppCompatActivity {
                 //不带数据的界面跳转
                 Intent intent = new Intent(SplashActivity.this,MainActivity.class);
                 startActivity(intent);
+                SplashActivity.this.finish();
             }
         };
         timer.schedule(task,5000);
